@@ -1,0 +1,35 @@
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid black 1px;
+  margin: 2rem auto;
+  padding: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 600px;
+}
+
+.formulario div {
+  -webkit-box-flex: unset;
+      -ms-flex: unset;
+          flex: unset;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario div.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=Contacto.css.map */

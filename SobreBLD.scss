@@ -1,0 +1,22 @@
+@mixin color-de-fondo($color: red) {
+  background-color: $color;
+}
+
+body {
+  section {
+    display: flex;
+    justify-content: center;
+    @include color-de-fondo($color: #dce2e4a8);
+    .main {
+      display: block;
+      max-width: 50%;
+      border: 4px solid black;
+      padding: 3rem;
+      margin: 2rem;
+    }
+    h3 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

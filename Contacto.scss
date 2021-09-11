@@ -1,0 +1,20 @@
+.formulario {
+  display: flex;
+  border: solid black 1px;
+  margin: 2rem auto;
+  padding: 1rem;
+  flex-direction: column;
+  max-width: 600px;
+
+  div {
+    flex: unset;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    &.action {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

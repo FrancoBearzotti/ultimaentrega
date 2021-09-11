@@ -1,0 +1,38 @@
+@import "./_variables.scss";
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .sgr {
+    background-color: $color-primario;
+    max-width: 50%;
+    border: solid black 1px;
+    padding: 2rem;
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.funcion {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 50%;
+}

@@ -1,0 +1,57 @@
+body .contenedor1 .navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .contenedor2 #demo .carousel-inner {
+  width: 100%;
+  max-height: 600px;
+}
+
+body .contenedor2 #demo .carousel-inner .carousel-item {
+  position: unset;
+}
+
+body .contenedor2 #demo .carousel-inner .carousel-item .carrusel h5 {
+  font-size: 2rem;
+  color: white;
+}
+
+body .contenedor2 #demo .carousel-inner .carousel-item .carrusel p {
+  font-size: 1.5rem;
+  color: #0004ff;
+}
+
+.testExtend, body .contenedor1 .navbar, .futer .two, .futer .two .one, .futer .leyenda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.futer {
+  background-color: rgba(54, 39, 39, 0.425);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f515565), to(#3439c47c));
+  background: linear-gradient(#4f515565, #3439c47c);
+}
+
+.futer .two {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  padding: 2rem;
+}
+
+.futer .two .one {
+  width: 50px;
+  -webkit-transform: skew(-2deg, 5deg);
+          transform: skew(-2deg, 5deg);
+}
+
+.futer .leyenda {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=estilos.css.map */
