@@ -1,0 +1,64 @@
+@media screen {
+  .body {
+    width: 100%;
+  }
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .section {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+h3 {
+  margin-bottom: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3 p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flexbox;
+          flex-direction: flexbox;
+}
+
+.work :hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.work .ava {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=SobreBLD.css.map */

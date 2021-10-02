@@ -1,0 +1,43 @@
+body .contenedor1 .navbar {
+  justify-content: space-between;
+}
+body .contenedor2 #demo .carousel-inner {
+  width: 100%;
+  max-height: 600px;
+}
+body .contenedor2 #demo .carousel-inner .carousel-item {
+  position: unset;
+}
+body .contenedor2 #demo .carousel-inner .carousel-item .carrusel {
+  background-color: rgba(43, 33, 33, 0.493);
+}
+body .contenedor2 #demo .carousel-inner .carousel-item .carrusel h5 {
+  text-shadow: 1px black;
+  font-size: 2rem;
+  color: white;
+}
+body .contenedor2 #demo .carousel-inner .carousel-item .carrusel p {
+  font-size: 1.5rem;
+  color: #ddf7f7;
+}
+
+.testExtend, .futer .leyenda, .futer .two .one, .futer .two, body .contenedor1 .navbar {
+  display: flex;
+}
+
+.futer {
+  background-color: rgba(54, 39, 39, 0.425);
+  background: linear-gradient(#4f515565, #3439c47c);
+}
+.futer .two {
+  justify-content: center;
+  gap: 50px;
+  padding: 2rem;
+}
+.futer .two .one {
+  width: 50px;
+  transform: skew(-2deg, 5deg);
+}
+.futer .leyenda {
+  justify-content: center;
+}

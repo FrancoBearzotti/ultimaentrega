@@ -1,0 +1,50 @@
+@import "./_variables.scss";
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .sgr {
+    background-color: $color-primario;
+    padding: 2rem;
+    h1 {
+      margin-bottom: 3rem;
+    }
+    .parrafo {
+      line-height: 1;
+      padding-top: 1.5rem;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.funcion {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 1000px) {
+    width: 100%;
+    margin: 1rem;
+  }
+}

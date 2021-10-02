@@ -1,0 +1,37 @@
+.body {
+  @media screen {
+    width: 100%;
+  }
+}
+
+.section {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 500px) {
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+h3 {
+  margin-bottom: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding-bottom: 1rem;
+  }
+}
+.work {
+  display: flex;
+  align-items: center;
+  flex-direction: flexbox;
+  :hover {
+    transform: scale(1.05);
+  }
+  .ava {
+    display: flex;
+  }
+}
